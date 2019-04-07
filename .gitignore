@@ -1,0 +1,7 @@
+**/*.rs.bk
+/wasm/Cargo.lock
+/wasm/target
+/wasm/pkg
+
+/www/node_modules
+/www/dist
