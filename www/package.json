@@ -1,15 +1,18 @@
 {
   "name": "www",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "wasm from Rust",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
     "serve": "webpack-dev-server"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabezokodaikon/wasm_from_rust.git"
+  },
+  "author": "nabezokodaikon",
+  "license": "Apache-2.0",
   "dependencies": {
     "wasm": "file:../wasm/pkg"
   },
